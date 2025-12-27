@@ -19,7 +19,7 @@ Create a new Conda environment using the provided configuration file:
 ```bash
 conda env create -f environment.yml
 conda activate packkv_pub
-pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu128
+pip install torch==2.7.1 --index-url https://download.pytorch.org/whl/cu128 # to support RTX Pro 6000
 pip install flash-attn==2.8.1 --no-build-isolation
 pip install -r requirements.txt
 ```
