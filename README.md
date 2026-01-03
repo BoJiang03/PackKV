@@ -1,6 +1,6 @@
 # PackKV
 
-This is the official repository for the paper **"PackKV: Reducing KV Cache Memory Footprint through LLM-Aware Lossy Compression"** (IPDPS 2026).
+This is the official repository for the paper **"PackKV: Reducing KV Cache Memory Footprint through LLM-Aware Lossy Compression"** (IPDPS 2026). [[Paper](https://arxiv.org/abs/2512.24449)]
 
 PackKV is a high-performance framework designed to reduce the memory footprint of Key-Value (KV) cache for Large Language Models Inference with Lossy Compression. By utilizing custom CUDA kernels and sophisticated lossy compression techniques, PackKV aims to reduce memory usage and improve inference throughput.
 
